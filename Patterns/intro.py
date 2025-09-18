@@ -189,6 +189,6 @@ print()
 
 rows = 5
 
-for i in range(rows,0,-1):
+for i in range(1,rows):
 
-    print((i-1) * "  " + "* " * (rows - i))
+    print((rows-i) * " " + "* " * (i) + " " * (rows-(i+1)))
