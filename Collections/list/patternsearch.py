@@ -1,7 +1,7 @@
 name = "datasciencen"
 
 pattern = "en"
-
+"""
 count = 0
 
 length = len(pattern)
@@ -15,5 +15,5 @@ while i < len(name):
         count += 1
 
     i += 1
-
-print(count) 
+"""
+print(name.count(pattern)) 
